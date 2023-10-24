@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+div {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label,
+div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input[type="number"],
+select {
+  width: calc(
+    100% - 22px
+  ); /* Subtracting the total of left and right paddings and border widths */
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #1a508b;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+button {
+  background-color: #1a508b;
+  color: #f1c40f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #123a63; /* a darker shade of the primary color */
+}
+
+div:last-child {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
